@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Image from "next/image";
 
 export default function ImageComponent({image}) {
