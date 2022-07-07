@@ -30,7 +30,6 @@ const Header = React.forwardRef((props, ref) => {
       <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
         <div>
           <a href="#" className="flex relative h-12 w-12">
-            <span className="sr-only">Workflow</span>
             <Image layout="fill" className="h-8 w-auto sm:h-10" src="/logo.svg" alt="" />
           </a>
         </div>
@@ -43,7 +42,9 @@ const Header = React.forwardRef((props, ref) => {
         <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
           <nav className="flex space-x-10">
             <a
-              href="#footer"
+              href="https://eddyagossou.me"
+              target="_blank"
+              rel="noreferrer"
               className={clsx("text-base font-medium  hover:text-gray-900", {
                 "text-black": scroll,
                 "text-white": !scroll,
@@ -136,7 +137,12 @@ const Header = React.forwardRef((props, ref) => {
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a
+                  href="https://eddyagossou.me"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-base font-medium text-gray-900 hover:text-gray-700"
+                >
                   Developer
                 </a>
               </div>
